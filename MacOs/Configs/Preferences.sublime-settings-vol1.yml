@@ -1,0 +1,22 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"theme_gotham_camouflage": true,
+	"theme_gotham_compact_tab": true,
+	"theme_gotham_compact_sidebar": true,
+	"theme_gotham_sidebar_mini": true,
+	"theme_gotham_sidebar_font_xsmall": true, "font-size": 10,
+	"theme_gotham_sidebar_font_small":false, /*"font-size": 6,*/
+	"theme_gotham_sidebar_font_big": false, /*"font-size": 8,*/
+	"theme_gotham_sidebar_selected_entry_yellow": true,
+	"theme_gotham_active_tab_entry_yellow": true,
+	"theme_gotham_vertical_scrollbar_yellow": true,
+	"theme_gotham_horizontal_scrollbar_yellow": true,
+	"ensure_newline_at_eof_on_save": true,
+	"index_files": true,
+	"theme": "Gotham.sublime-theme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+}

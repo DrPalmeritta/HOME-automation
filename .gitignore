@@ -1,21 +1,35 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+### Helm ###
+# Chart dependencies
+**/charts/*.tgz
 
-# Test binary, built with `go test -c`
-*.test
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Icon must end with two \r
+Icon
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# Thumbnails
+._*
 
-# Go workspace file
-go.work
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### macOS Patch ###
+# iCloud generated files
+*.icloud
