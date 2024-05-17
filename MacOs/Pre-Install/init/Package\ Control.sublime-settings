@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Codeium",
+		"Gotham Theme",
+		"Package Control",
+		"SideBarEnhancements",
+		"SideBarTools",
+	],
+}
