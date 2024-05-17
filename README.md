@@ -10,7 +10,7 @@ This repository contains a collection of scripts designed to streamline the init
 - 💻 [MacOS pre-configured host](#MacOS/)
 
 
-## Installation
+## MacOS pre-install Setup:
 
 Clone the Repo
 
