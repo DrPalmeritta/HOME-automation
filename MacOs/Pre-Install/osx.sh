@@ -9,6 +9,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 
 
+
 # *****************************************************************************#
 # General UI/UX Enhancements                                                   #
 # *****************************************************************************#
@@ -132,7 +133,7 @@ sudo pmset -a hibernatemode 0
 
 # Disable the sudden motion sensor as it’s not useful for SSDs
 # *********************************
-sudo pmset -a sms 0
+#sudo pmset -a sms 0
 
 
 
@@ -158,15 +159,15 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Use scroll gesture with the Ctrl (^) modifier key to zoom
 # *********************************
-defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
-defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
+#defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
+#defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
 # Follow the keyboard focus while zoomed in
 # *********************************
-defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
+#defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 
 # Disable press-and-hold for keys in favor of key repeat
 # *********************************
-defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+#defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Stop iTunes from responding to the keyboard media keys
 # *********************************
@@ -182,8 +183,8 @@ echo "04. Optimizing your screen/picture settings.."
 
 # Require password immediately after sleep or screen saver begins
 # *********************************
-defaults write com.apple.screensaver askForPassword -int 1
-defaults write com.apple.screensaver askForPasswordDelay -int 0
+#defaults write com.apple.screensaver askForPassword -int 1
+#defaults write com.apple.screensaver askForPasswordDelay -int 0
 
 # Save screenshots to the Pictures/Screenshots
 # *********************************
@@ -211,7 +212,7 @@ echo "05. Tweaking Finder settings.."
 
 # Allow quitting Finder via ⌘ + Q; doing so will also hide desktop icons
 # *********************************
-defaults write com.apple.finder QuitMenuItem -bool true
+#defaults write com.apple.finder QuitMenuItem -bool true
 
 # Use Column view in all Finder windows by default
 # Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
@@ -236,7 +237,7 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # Show the ~/Library folder
 # *********************************
-chflags nohidden ~/Library
+#chflags nohidden ~/Library
 
 # Show Finder status bar
 # *********************************
@@ -437,7 +438,7 @@ defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-
 # Spotlight                                                                   #
 ###############################################################################
 # Hide Spotlight tray-icon (and subsequent helper)
-#sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
+sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
 # Disable Spotlight indexing for any volume that gets mounted and has not yet
 # been indexed before.
 # Use `sudo mdutil -i off "/Volumes/foo"` to stop indexing any volume.
@@ -664,8 +665,10 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 ###############################################################################
 # Sublime Text                                                                #
 ###############################################################################
-# Install Sublime Text settings
+# Install Sublime Text settings & Themes
 cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
+cp -r init/Gotham.sublime-theme ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Gotham.sublime-theme 2> /dev/null
+cp -r init/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Package\ Control.sublime-settings 2> /dev/null
 
 
 

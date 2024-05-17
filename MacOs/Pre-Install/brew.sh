@@ -259,15 +259,15 @@ brew install openvpn
 
 
 # Social Apps
-echo -e "${bold_yellow}"
-echo "# Messaging/Social Apps"
-echo "#=======================================#"
-echo -e "${normal}"
-echo "Installing Skype.."
-brew cask install --appdir="/Applications" skype
-echo ""
-echo "Installing Slack.."
-brew cask install --appdir="/Applications" slack
+#echo -e "${bold_yellow}"
+#echo "# Messaging/Social Apps"
+#echo "#=======================================#"
+#echo -e "${normal}"
+#echo "Installing Skype.."
+#brew cask install --appdir="/Applications" skype
+#echo ""
+#echo "Installing Slack.."
+#brew cask install --appdir="/Applications" slack
 
 
 # Productivity
@@ -281,15 +281,15 @@ echo ""
 echo "Installing Toggl –– Time Tracking app.."
 brew cask install --appdir="/Applications" toggldesktop
 echo ""
-echo "Installing Evernote.."
-brew cask install --appdir="/Applications" evernote
-echo ""
+#echo "Installing Evernote.."
+#brew cask install --appdir="/Applications" evernote
+#echo ""
 echo "Installing Notion –– Note-taking app.."
 brew cask install --appdir="/Applications" notion
 echo ""
-echo "Installing 1Password –– Password Manager.."
-brew cask install --appdir="/Applications" 1password
-echo ""
+#echo "Installing 1Password –– Password Manager.."
+#brew cask install --appdir="/Applications" 1password
+#echo ""
 echo "Installing Spectacle –– Window Manager.."
 brew cask install --appdir="/Applications" spectacle
 echo ""
@@ -313,12 +313,12 @@ brew cask install --appdir="/Applications" sketch
 echo -e "${bold_yellow}"
 echo "# Backup & Sync Apps"
 echo "#=======================================#"
-echo -e "${normal}"
-echo "Installing Dropbox.."
-brew cask install --appdir="/Applications" dropbox
-echo ""
-echo "Installing Google Drive.."
-brew cask install --appdir="/Applications" google-drive
+#echo -e "${normal}"
+#echo "Installing Dropbox.."
+#brew cask install --appdir="/Applications" dropbox
+#echo ""
+#echo "Installing Google Drive.."
+#brew cask install --appdir="/Applications" google-drive
 
 
 # Media Players
@@ -329,20 +329,20 @@ echo -e "${normal}"
 echo "Installing Boom 3D.."
 brew cask install --appdir="/Applications" boom-3d
 echo ""
-echo "Installing Spotify.."
-brew cask install --appdir="/Applications" spotify
-echo ""
-echo "Installing VLC.."
-brew cask install --appdir="/Applications" vlc
-echo ""
+#echo "Installing Spotify.."
+#brew cask install --appdir="/Applications" spotify
+#echo ""
+#echo "Installing VLC.."
+#brew cask install --appdir="/Applications" vlc
+#echo ""
 echo "Installing Iina.."
 brew cask install --appdir="/Applications" iina
-echo ""
-echo "Installing Plex Media Player –– Home Theatre App.."
-brew cask install --appdir="/Applications" plex-media-player
-echo ""
-echo "Installing Pocket Casts –– Podcast App.."
-brew cask install --appdir="/Applications" pocket-casts
+#echo ""
+#echo "Installing Plex Media Player –– Home Theatre App.."
+#brew cask install --appdir="/Applications" plex-media-player
+#echo ""
+#echo "Installing Pocket Casts –– Podcast App.."
+#brew cask install --appdir="/Applications" pocket-casts
 
 # System Tools
 echo "Installing System Apps.."

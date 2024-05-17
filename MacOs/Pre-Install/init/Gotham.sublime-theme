@@ -1,0 +1,17 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+        "variables":
+        {
+                "theme_gotham_camouflage": true,
+                "theme_gotham_compact_tab": true,
+                "theme_gotham_compact_sidebar": true,
+                "theme_gotham_sidebar_mini": true,
+                "theme_gotham_sidebar_font_xsmall": true, "font-size": 7,
+                "theme_gotham_sidebar_font_small": true, "font-size": 8,
+                "theme_gotham_sidebar_font_big": true, "font-size": 10
+        },
+        "rules":
+        [
+
+        ]
+}
