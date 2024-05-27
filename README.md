@@ -15,7 +15,7 @@ This repository contains a collection of scripts designed to streamline the init
 Clone the Repo
 
 ```bash
-git clone https://github.com/donnemartin/dev-setup.git && cd dev-setup
+git clone https://github.com/DrPalmeritta/HOME-automation.git && cd HOME-automation
 ```
 
 Run the .dots Script with Command Line Arguments
