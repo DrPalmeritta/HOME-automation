@@ -233,7 +233,7 @@ defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Show all filename extensions
 # *********************************
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+# defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # Show the ~/Library folder
 # *********************************
