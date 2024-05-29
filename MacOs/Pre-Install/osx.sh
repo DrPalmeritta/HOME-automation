@@ -483,6 +483,7 @@ sudo mdutil -E / > /dev/null
 
 
 
+
 ###############################################################################
 # Terminal & iTerm 2                                                          #
 ###############################################################################
@@ -563,6 +564,7 @@ open "${HOME}/init/Solarized Dark.itermcolors"
 
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+
 
 
 
@@ -662,6 +664,7 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 
 
 
+
 ###############################################################################
 # Sublime Text                                                                #
 ###############################################################################
@@ -669,6 +672,7 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
 cp -r init/Gotham.sublime-theme ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Gotham.sublime-theme 2> /dev/null
 cp -r init/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Package\ Control.sublime-settings 2> /dev/null
+
 
 
 
